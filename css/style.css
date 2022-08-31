@@ -32,18 +32,27 @@ body>header nav{
 
 }
 .nav2{
+    
+    text-decoration-line: underline;
+    text-decoration-color: white;
+    
+}
+.nav3{
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     padding: 0px 75px;
 }
 /* Main */
 main{
+    height: 80vh;
     display: flex;
+    
 }
 .container-left{
     max-width: 40%;
-    margin: auto;
+    margin: auto 175px ;
 }
+
 .container-right{
     max-width: 60%;
     margin: 0px 150px 0px 25px;
@@ -52,10 +61,35 @@ main{
     font-family: 'Lora', serif;
     font-weight: 500;
     font-size: 48px;
+    padding: 10px;
+    margin-bottom: 25px;
 
 }
+.container-left p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+.container-left a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding:15px;
+    color: white;
+    text-decoration: none;
+}
+
 .container-right_section{
     display: flex;
+}
+.container-right_img{
+    margin-bottom: 15px;
+}
+.container-right_section img{
+    border-radius: 50px;
+  
 }
 
   /* Footer */
@@ -66,7 +100,7 @@ footer{
     font-size: 14px;
     color: #A9A9A9;
 }
-footer p>span{
+footer>span a{
     font-weight: bold;
-    text-decoration: underline;
+    color: #A9A9A9;
 }
