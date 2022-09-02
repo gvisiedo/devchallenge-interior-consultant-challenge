@@ -27,8 +27,8 @@ body>header nav{
     font-family: 'Crimson Pro', serif;
     font-size: 14px;
     text-transform: uppercase;
-    margin-right: 750px;
-    margin-left: 50px;
+    margin-right: 620px;
+    margin-left: 180px;
 
 }
 .nav2{
@@ -53,10 +53,7 @@ main{
     margin: auto 175px ;
 }
 
-.container-right{
-    max-width: 60%;
-    margin: 0px 150px 0px 25px;
-}
+
 .container-left h1{
     font-family: 'Lora', serif;
     font-weight: 500;
@@ -80,18 +77,52 @@ main{
     color: white;
     text-decoration: none;
 }
+.container-right{
+  
+    max-width: 60%;
+    margin: 0px 1050px 0px 25px;
+   
+}
+.container-right_img{
+    margin-right: 50px;
+    margin-bottom: 15px;
+    position: absolute;
+   z-index: 0;
+    
+}
+
+.container-right_down{
+    
+    padding: 15px;
+    margin-top: 550px;
+    margin-left: 400px;
+    margin-bottom: 500px;
+    position: absolute;
+    background-color: black;
+    z-index: 3;
+}
+.container-right_down h2{
+    padding: 15px;
+    font-family: 'Lora', serif;
+    font-size: 24px;
+    font-weight: 700;
+}
 
 .container-right_section{
     display: flex;
 }
-.container-right_img{
-    margin-bottom: 15px;
-}
+
 .container-right_section img{
     border-radius: 50px;
+    margin-left: 15px;
   
 }
-
+.container-right_section article{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin:auto 15px;
+}
   /* Footer */
 footer{
     text-align: center;
