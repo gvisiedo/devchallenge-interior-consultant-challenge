@@ -73,6 +73,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://{www.visigoyo.com})
-- GitHub [@your-username](https://{github.com/VisiGoyo})
+- Website [your-website.com](https://www.visigoyo.com)
+- GitHub [@your-username](https://github.com/gvisiedo)
 - Twitter [@your-twitter](https://{twitter.com/your-username})
