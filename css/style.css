@@ -223,6 +223,9 @@ footer>span a{
    </div>  
 */
     @media (max-width:650px){
+        .nav1{
+            margin: auto;
+        }
         .container-right{
        
             max-width: 100vw;
@@ -309,7 +312,7 @@ footer>span a{
             z-index: 4;  
         }
         .full-menu.active .interior {  
-            transition-delay: 0.1s;  
+            transition-delay: 0.2s;  
         }  
         .full-menu.active .home {  
             transition-delay: 0.3s;  
